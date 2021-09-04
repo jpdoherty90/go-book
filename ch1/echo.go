@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	// echo3
 	fmt.Println(os.Args[0])
 	for i, val := range os.Args[1:] {
 		fmt.Printf("%d : %s\n", i, val)
